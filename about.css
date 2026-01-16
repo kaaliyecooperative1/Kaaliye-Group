@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 15px;
+    background: white;
+    color: darkblue;
+}
+
+.logo {
+    margin: 0;
+}
+
+/* Three dots icon */
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Menu */
+.menu {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 60px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.menu a {
+    display: block;
+    padding: 12px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover {
+    background: #f1f1f1;
+}
+.hero{
+    height:90vh;
+    background-color: whitesmoke;
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    color:black;
+    padding:20px;
+    border-radius: 20px;
+     background-color: whitesmoke;
+}
+
+
+.hero h1{
+    font-size:54px;
+    margin-bottom:15px;
+}
+
+.hero p{
+    font-size:20px;
+    margin-bottom:25px;
+}
+
+.hero a{
+    background:darkblue;
+    color:#fff;
+    padding:15px 40px;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+}
+section{
+    padding:80px 60px;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.section-title h2{
+    font-size:36px;
+    color:darkblue;
+}
+
+.section-title p{
+    color:#666;
+}
+
+/* FEATURES */
+.features{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));
+    gap:30px;
+}
+
+.feature{
+    background:#fff;
+    padding:35px;
+    border-radius:15px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.1);
+    text-align:center;
+}
+
+.feature h3{
+    color:darkblue;
+    margin-bottom:10px;
+}
+.cta{
+    background:white;
+    color:black;
+    text-align:center;
+    padding:80px 20px;
+}
+
+.cta h2{
+    font-size:40px;
+    margin-bottom:15px;
+}
+
+.cta a{
+    background:darkblue;
+    padding:15px 35px;
+    color:#fff;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+}
+
+/* FOOTER */
+footer{
+    background:darkblue;
+    color:#fff;
+    text-align:center;
+    padding:20px;
+}

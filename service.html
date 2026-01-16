@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Kaaliye Cooperative</title>
+	<link rel="stylesheet" type="text/css" href="service.css">
+</head>
+<body>
+<header class="header">
+	<img src="./k.jpeg"width="80"height="80">
+    <h2 class="logo">Kaaliye Cooperative</h2>
+
+    <!-- Three dots icon -->
+    <div class="menu-icon" onclick="toggleMenu()">⋮</div>
+</header>
+
+<!-- Dropdown Menu -->
+<nav id="menu" class="menu">
+    
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+</nav>
+<script>
+function toggleMenu() {
+    const menu = document.getElementById("menu");
+    menu.style.display = menu.style.display === "block" ? "none" : "block";
+}
+</script>
+<div class="hero">
+    <h1>Our Services</h1>
+</div>
+
+<section>
+    <div class="section-title">
+        <h2>What We Offer</h2>
+        <p>Professional services designed to empower our members</p>
+    </div>
+
+    <div class="services">
+        <div class="service-card">
+            <img src="k18.jpg" alt="Financial Support">
+            <div class="service-content">
+                <h3>Financial Support </h3>
+                <p>
+                    We provide structured financial assistance and annual share
+                    programs to support member stability and growth.
+                </p>
+            </div>
+        </div>
+
+        <div class="service-card">
+            <img src="k21.jpg" alt="Training">
+            <div class="service-content">
+                <h3>Building Business</h3>
+                <p>
+                   We Build new Business In every Distract To Achieve Financial Freedom
+                </p>
+            </div>
+        </div>
+
+        <div class="service-card">
+            <img src="k22.jpg" alt="Business Development">
+            <div class="service-content">
+                <h3>Annual membership share</h3>
+                <p>
+                   We over Annual membership share To The Company's members
+                </p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<div class="cta">
+    <h2>Interested in Our Services?</h2>
+    <p>Contact us today and grow with our cooperative</p>
+    <br>
+    <a href="contact.html">Contact Us</a>
+</div>
+
+<footer>
+    <p>&copy; 2026 Kaaliye Cooperative| All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>

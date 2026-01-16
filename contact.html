@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Kaaliye Cooperative</title>
+	<link rel="stylesheet" type="text/css" href="contact.css">
+</head>
+<body>
+<header class="header">
+	<img src="./k.jpeg"width="80"height="80">
+    <h2 class="logo">Kaaliye Cooperative</h2>
+
+    <!-- Three dots icon -->
+    <div class="menu-icon" onclick="toggleMenu()">⋮</div>
+</header>
+
+<!-- Dropdown Menu -->
+<nav id="menu" class="menu">
+    
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="service.html">Service</a>
+</nav>
+<script>
+function toggleMenu() {
+    const menu = document.getElementById("menu");
+    menu.style.display = menu.style.display === "block" ? "none" : "block";
+}
+</script>
+<div class="hero">
+    <h1>Contact Us</h1>
+</div>
+
+<section>
+    <div class="contact-container">
+        <div class="contact-info">
+            <h2>Get in Touch</h2>
+            <p>📍 Address: Mogadishu, Yaaqshiid,Somalia</p>
+            <p>📞 Phone: +252 61 6453524</p>
+            <p>✉ Email: kaaliyecooperative1@gmail.com</p>
+            <p>🕒 Working Hours: Saturday– friday(6:00 AM – 6:00 PM)</p>
+            <p>
+                We value your feedback and inquiries. Please use the form to
+                send us your message and our team will respond promptly.
+            </p>
+        </div>
+
+        <!-- GOOGLE FORM EMBED -->
+        <div class="google-form">
+            <iframe 
+                src="https://docs.google.com/forms/d/e/1FAIpQLSfBBXn9zEwaQczZAAJ9bNWzLLcJ2WCgFsbLXUkNXO0oZ3OR8w/viewform?usp=publish-editor"
+                loading="lazy">
+            </iframe>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 Kaaliye Cooperative| All Rights Reserved.</p>
+</footer>
+</body>
+</html>
